@@ -1,0 +1,25 @@
+{
+  "name": "arcadegame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpreetkaur/Arcade-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpreetkaur/Arcade-Game/issues"
+  },
+  "homepage": "https://github.com/mpreetkaur/Arcade-Game#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^5.0.0"
+  }
+}
