@@ -4,6 +4,7 @@ var cleanCSS = require('gulp-clean-css');
 var imagemin = require('gulp-imagemin');
 var babel = require('gulp-babel');
 var concat = require('gulp-concat');
+var uglify = require('gulp-uglify');
 
 gulp.task('css', () =>
     gulp.src('src/css/**/*.css')
@@ -27,5 +28,6 @@ gulp.task('js', () =>
         presets: ['env']
     }))
     .pipe(concat('main.js'))
+    .pipe(uglify())
     .pipe(gulp.dest('dist/js/'))
 );
